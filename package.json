@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon app.js -e js,njk,scss,gulp,css",
-    "styles": "./node_modules/.bin/gulp watch"
+    "styles": "./node_modules/.bin/gulp watch",
+    "start":"node app.js"
   },
   "keywords": [],
   "author": "",
