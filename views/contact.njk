@@ -1,0 +1,37 @@
+{% extends './layout.njk' %}
+
+{% block content%}
+
+    <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+        <h3 class="w3-center">CONTACT</h3>
+        <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+        <div class="wrap" style="margin-top:48px">
+            <p>
+                <i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>
+                <a href="https://www.google.com/maps/place/55+Selby+Rd+a4,+Brampton,+ON+L6W+1K5/@43.6916682,-79.728023,17z/data=!3m1!4b1!4m5!3m4!1s0x882b3e164b0ea06d:0x4fe5455017c23e1d!8m2!3d43.6916682!4d-79.7258343" target="_blank"> 55 Selby Road, Brampton, Canada</a>
+            </p>
+            <p>
+                <i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i>
+                <a href="tel:9057820510"> Phone: +1 905 782 0510</a>
+            </p>
+            <p>
+                <i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"></i>
+                <a href="mailto:contact@drit.ca">Email: contact@drit.ca</a>
+            </p>
+            <br>
+            <form action="/action_page.php" target="_blank">
+                <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+                <p>
+                    <button class="w3-button w3-black" type="submit">
+                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+                </p>
+            </form>
+            <!-- Image of location/map -->
+        </div>
+    </div>
+
+    {% endblock%}

@@ -1,0 +1,82 @@
+a {
+    .fa-facebook-official {
+        &:hover {
+            color  : #4267B2;
+            opacity: 1;
+        }
+
+        &:focus {
+            color: white;
+        }
+    }
+
+    .fa-instagram {
+        &:hover {
+            background             : -webkit-linear-gradient(45deg, #f9ed32, #ee2a7b, #002aff);
+            -webkit-background-clip: text;
+            background-clip        : text;
+            -webkit-text-fill-color: transparent;
+            opacity                : 1;
+        }
+
+        &:focus {
+            color: white;
+        }
+
+        &:active {
+            color: white;
+        }
+    }
+
+    .fa-snapchat {
+        &:hover {
+            color  : #fffc00;
+            opacity: 1;
+        }
+
+        &:focus {
+            color: white;
+        }
+    }
+
+    .fa-twitter {
+        &:hover {
+            color  : #1da1f2;
+            opacity: 1;
+        }
+
+        &:focus {
+            color: white;
+        }
+    }
+
+    .fa-linkedin {
+        &:hover {
+            color  : #2867B2;
+            opacity: 1;
+        }
+
+        &:focus {
+            color: white;
+        }
+    }
+}
+
+#snapchatCode {
+    img {
+        max-height: 50%;
+    }
+}
+
+.reveal {
+    width    : 55%;
+    max-width: 30rem;
+}
+
+// .w3-xlarge {
+//     letter-spacing: 10px;
+// }
+.footerSocialIcons {
+    display: inline-flex;
+    margin : 0 .5em;
+}

@@ -1,0 +1,64 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: "Raleway", sans-serif;
+}
+
+html {
+    --scrollbarBG: #b3b3b3;
+    --thumbBG    : #3e3e3e;
+
+}
+
+
+body::-webkit-scrollbar {
+    width: 7px;
+}
+
+body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    border-radius   : 0px;
+    border          : 0px solid var(--scrollbarBG);
+}
+
+
+
+@media only screen and (min-width: 1224px) {
+    .index-landing-properties {
+        width: 50%;
+    }
+
+}
+
+@media only screen and (min-width:900px) and (max-width: 1223px) {
+    .index-landing-properties {
+        width: 65%;
+    }
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 899px) {
+    .index-landing-properties {
+        width: 80%;
+    }
+
+    .hero {
+        padding: 25px 0px;
+    }
+
+
+}

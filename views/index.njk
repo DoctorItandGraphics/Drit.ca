@@ -1,0 +1,24 @@
+{% extends './layout.njk' %}
+{# Building Block for Home Page #}
+{% block content %}
+  <div class="body-index">
+    <section class="hero">
+      <div class="index-landing-properties align-center">
+        <h1 class="front-Page-text">Doctor IT and Graphics Solution</h1>
+        <p>
+        We deal with all kinds of your printing needs! </br>
+        Call Us today to get a free quote!
+        </p>
+      <a href="contact" class="button success normal-button">Contact Us</a>
+      <a href="#" class="hollow button">Learn More</a>
+
+    </div>
+
+  </section>
+  {# {% include './partials/imagespath.njk'%} #}
+  <section>
+    {%include './partials/menuTabs.njk'%}
+  </section>
+
+</div>
+{% endblock %}

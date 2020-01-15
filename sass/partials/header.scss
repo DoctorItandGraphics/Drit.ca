@@ -1,0 +1,42 @@
+header {
+    height             : auto;
+    display            : flex;
+    justify-content    : flex-end;
+    background-color   : #8107a7;
+    background-image   : linear-gradient(45deg, #df8827, transparent);
+    // background-image: linear-gradient(to right, #EE9E11, #96238B);
+    color              : white;
+
+    ul {
+        margin         : 0;
+        display        : flex;
+        flex-direction : row;
+        flex-basis     : 400px;
+        justify-content: space-between;
+        align-items    : center;
+        margin-right   : 20px;
+    }
+
+    a {
+        color: white;
+
+        &:hover {
+            color: #F8AB05;
+        }
+
+        &:active {
+            color: #F8AB05;
+        }
+
+        &:focus {
+            color: #F8AB05;
+        }
+    }
+
+    .menu {
+        .menu-text {
+            padding: 0.7rem 0rem;
+        }
+    }
+
+}
